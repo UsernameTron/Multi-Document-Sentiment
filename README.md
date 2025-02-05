@@ -1,118 +1,88 @@
-Here's a **README.md** file for your project, ready to be added to your GitHub repo:
 
----
+📊 Multi-Document Sentiment Analyzer
 
-## **📊 Multi-Document Sentiment Analyzer**
-**AI-powered tool for analyzing sentiment, emotion, and topics from multiple PDF and text documents. Built with Streamlit, OpenAI, and NLP models.**
+AI-powered tool for sentiment, emotion, and topic analysis across multiple PDF and text documents. Built with Streamlit, OpenAI, and NLP models to extract insights effortlessly.
 
----
+🚀 Features
 
-### **🚀 Features**
-✅ **Upload & Analyze PDFs/TXT** – Extracts and processes text from documents  
-✅ **AI-Powered Sentiment Analysis** – Uses **RoBERTa** to classify sentiment  
-✅ **Emotion Detection** – Identifies emotions using a fine-tuned DistilRoBERTa model  
-✅ **Topic Modeling** – Uses BERTopic for unsupervised topic clustering  
-✅ **Interactive Visualizations** – View sentiment trends, topic distributions, and word clouds  
-✅ **Automated Report Generation** – Export findings as a **PDF report**  
-✅ **Secure & Optimized** – Ensures **efficient processing & API security**  
+✅ Upload & Analyze PDFs/TXT – Extracts and processes text
+✅ AI-Powered Sentiment Analysis – Uses RoBERTa for classification
+✅ Emotion Detection – Identifies emotions via fine-tuned DistilRoBERTa
+✅ Topic Modeling – BERTopic for unsupervised topic clustering
+✅ Interactive Visuals – Sentiment trends, topic distributions, and word clouds
+✅ Automated Reports – Export findings as a PDF report
+✅ Secure & Optimized – Efficient processing with API security
 
----
+🔧 Installation
 
-### **🔧 Installation**
-#### **1️⃣ Clone the Repository**
-```sh
+1️⃣ Clone the Repository
+
 git clone https://github.com/UsernameTron/Multi-Document-Sentiment.git
 cd Multi-Document-Sentiment
-```
 
-#### **2️⃣ Set Up a Virtual Environment (Optional)**
-```sh
-python3 -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate     # Windows
-```
+2️⃣ Set Up a Virtual Environment (Optional)
 
-#### **3️⃣ Install Dependencies**
-```sh
+python3 -m venv venv  
+source venv/bin/activate  # macOS/Linux  
+venv\Scripts\activate     # Windows  
+
+3️⃣ Install Dependencies
+
 pip install -r requirements.txt
-```
 
-#### **4️⃣ Set Up OpenAI API Key**
-Create a `.streamlit/secrets.toml` file and add:
-```ini
+4️⃣ Set Up OpenAI API Key
+Create a .streamlit/secrets.toml file and add:
+
 [secrets]
 OPENAI_API_KEY = "your-api-key-here"
-```
-**⚠ DO NOT share your API key publicly!**  
 
-#### **5️⃣ Run the App**
-```sh
-streamlit run app.py
-```
+⚠ DO NOT share your API key publicly!
 
----
+5️⃣ Run the App
 
-### **📂 File Structure**
-```
+streamlit run sentiment_analysis_app.py
+
+📂 Project Structure
+
 📁 Multi-Document-Sentiment/
- ├── 📄 app.py               # Main Streamlit application
- ├── 📄 requirements.txt     # Dependencies
- ├── 📄 README.md            # Documentation (this file)
- ├── 📁 .streamlit/          # Contains API keys (not to be committed)
- └── 📁 models/              # Model files (cached)
-```
+ ├── 📄 sentiment_analysis_app.py  # Main Streamlit application  
+ ├── 📄 requirements.txt           # Dependencies  
+ ├── 📄 README.md                   # Documentation  
+ ├── 📁 .streamlit/                 # API secrets (not committed)  
+ ├── 📁 models/                      # Cached NLP models  
 
----
+🛠 How It Works
 
-### **📊 How It Works**
-1️⃣ **Upload PDFs or TXT files**  
-2️⃣ **Sentiment & emotion analysis** performed on document sections  
-3️⃣ **BERTopic** extracts **key topics**  
-4️⃣ **Results visualized in interactive charts**  
-5️⃣ **Download a comprehensive PDF report**  
+1️⃣ Upload PDFs or TXT files
+2️⃣ Sentiment & emotion analysis per document section
+3️⃣ BERTopic extracts key topics
+4️⃣ Interactive visualization of insights
+5️⃣ Download a full PDF report
 
----
+📸 Screenshots
 
-### **📸 Screenshots**
-*(Include images of the interface, sentiment graphs, and analysis results here.)*
+(Insert images showcasing the interface, graphs, and key results.)
 
----
+💡 Contributing
 
-### **👨‍💻 Contributing**
-Want to improve the project? Feel free to **fork the repo** and submit a **pull request**! 🚀
+Want to improve this project? Fork the repo and submit a pull request! 🚀
 
----
+📜 License
 
-### **📜 License**
-MIT License – Free to use and modify.  
+MIT License – Free to use and modify.
 
----
+📩 Contact
 
-### **📩 Contact**
-Have questions? Reach out via LinkedIn or GitHub Issues!  
+For questions or feedback, reach out via GitHub Issues or LinkedIn.
 
----
+⭐ Support the Project
 
-### **🌟 Star the Repo!**
-If you find this useful, **give it a star** ⭐ on GitHub to help others discover it!  
+If you find this useful, give it a ⭐ on GitHub to help others discover it!
 
----
+🔮 Next Steps & Roadmap
 
-### **📌 Next Steps**
-🚀 **Planned Features:**  
-🔹 Support for more **document formats**  
-🔹 **Real-time API integration** for automated processing  
-🔹 **Advanced NLP models** for better accuracy  
+🚀 Planned Enhancements:
+🔹 Support for additional document formats
+🔹 Real-time API integration for automated processing
+🔹 Advanced NLP models for improved accuracy
 
----
-
-### **✅ Ready to Deploy?**
-```sh
-git add README.md
-git commit -m "Added README"
-git push origin main
-```
-
----
-
-Now, your **README** is **structured, informative, and ready for GitHub**! 🚀
